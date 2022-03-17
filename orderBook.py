@@ -1,7 +1,4 @@
 from copy import deepcopy
-from struct import pack
-from turtle import update
-from wsgiref import validate
 
 def Factory(action):
     actions = {
